@@ -35,7 +35,7 @@ defmodule FacebookMessenger.Phoenix.Mixfile do
   defp deps do
     d =
     [{:phoenix, "~> 1.1"},
-     {:facebook_messenger, "~> 0.3.0"},
+     {:facebook_messenger, github: "ignu/facebook_messenger"},
      {:ex_doc, "~> 0.7", only: :dev},
      {:earmark, "~> 0.1", only: :docs}]
 
