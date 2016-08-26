@@ -36,7 +36,6 @@ defmodule FacebookMessenger.Phoenix.Mixfile do
     d =
     [{:phoenix, "~> 1.1"},
      {:facebook_messenger, "~> 0.3.0"},
-     {:inch_ex, only: :docs},
      {:ex_doc, "~> 0.7", only: :dev},
      {:earmark, "~> 0.1", only: :docs}]
 
